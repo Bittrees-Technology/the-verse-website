@@ -85,6 +85,7 @@ export default function Home() {
       </header>
 
       <section className="hero" id="top">
+        <div className="hero-art" aria-hidden="true" />
         <div className="hero-grid" aria-hidden="true" />
         <div className="hero-copy">
           <p className="eyebrow"><span /> Persistent industrial space universe</p>
@@ -107,25 +108,6 @@ export default function Home() {
             <li><span>02</span> Physical industry</li>
             <li><span>03</span> Humans + agents</li>
           </ul>
-        </div>
-
-        <div className="world-visual" aria-label="Khepri Prime orbital sector">
-          <div className="orbit orbit-one" aria-hidden="true" />
-          <div className="orbit orbit-two" aria-hidden="true" />
-          <div className="planet" aria-hidden="true">
-            <div className="planet-surface" />
-            <div className="planet-shadow" />
-            <div className="planet-atmosphere" />
-          </div>
-          <div className="sector-label sector-label-top">
-            <span>FIXED BODY / 01</span><strong>KHEPRI PRIME</strong>
-          </div>
-          <div className="sector-label sector-label-bottom">
-            <span>LOCAL SIGNAL</span><strong>ORBITAL INDUSTRY ACTIVE</strong>
-          </div>
-          <div className="coordinate" aria-hidden="true">
-            <span>43.71° N</span><span>21.09° E</span>
-          </div>
         </div>
 
         <a className="scroll-cue" href="#manifesto">
