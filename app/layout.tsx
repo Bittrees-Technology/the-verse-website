@@ -1,3 +1,4 @@
+import InsightsScript from "next/script";
 import type { Metadata, Viewport } from 'next';
 import './globals.css';
 
@@ -61,7 +62,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>{children}<InsightsScript src="https://insights.bittrees.org/consent.js" data-insights-site="the-verse" strategy="afterInteractive" />
+      </body>
     </html>
   );
 }

@@ -72,14 +72,14 @@ export default function Home() {
   return (
     <main>
       <header className="site-header">
-        <a href="#top" aria-label="The Verse, home"><Brand /></a>
+        <a data-insights="the-verse-home" href="#top" aria-label="The Verse, home"><Brand /></a>
         <nav aria-label="Primary navigation">
-          <a href="#manifesto">Manifesto</a>
-          <a href="#systems">The universe</a>
-          <a href="#field-log">Field log</a>
-          <a href="#contribute">Contribute</a>
+          <a data-insights="navigate-/manifesto" href="#manifesto">Manifesto</a>
+          <a data-insights="navigate-/systems" href="#systems">The universe</a>
+          <a data-insights="navigate-/field-log" href="#field-log">Field log</a>
+          <a data-insights="navigate-/contribute" href="#contribute">Contribute</a>
         </nav>
-        <a className="header-cta" href="#contribute">
+        <a data-insights="navigate-/contribute" className="header-cta" href="#contribute">
           Build with us <span aria-hidden="true">↗</span>
         </a>
       </header>
@@ -96,10 +96,10 @@ export default function Home() {
             history that matters to everyone who arrives next.
           </p>
           <div className="hero-actions">
-            <a className="primary-button" href="#contribute">
+            <a data-insights="navigate-/contribute" className="primary-button" href="#contribute">
               Choose your frontier <span aria-hidden="true">→</span>
             </a>
-            <a className="text-link" href="#manifesto">
+            <a data-insights="navigate-/manifesto" className="text-link" href="#manifesto">
               Read the world brief <span aria-hidden="true">↓</span>
             </a>
           </div>
@@ -110,7 +110,7 @@ export default function Home() {
           </ul>
         </div>
 
-        <a className="scroll-cue" href="#manifesto">
+        <a data-insights="navigate-/manifesto" className="scroll-cue" href="#manifesto">
           <span>SCROLL TO DESCEND</span><i aria-hidden="true" />
         </a>
       </section>
@@ -253,7 +253,7 @@ export default function Home() {
                 <i aria-hidden="true">✓</i>
               </div>
             ))}
-            <a href="https://github.com/Bittrees-Technology/the-verse" target="_blank" rel="noreferrer">
+            <a data-insights="navigate-githubcom/bittrees-technology/the-verse" href="https://github.com/Bittrees-Technology/the-verse" target="_blank" rel="noreferrer">
               Inspect the playable proof <span aria-hidden="true">↗</span>
             </a>
           </div>
@@ -295,7 +295,7 @@ export default function Home() {
               <div><span>{String(index + 1).padStart(2, '0')}</span><code>{code}</code></div>
               <h3>{title}</h3>
               <p>{body}</p>
-              <a href="https://github.com/Bittrees-Technology/the-verse/issues" target="_blank" rel="noreferrer" aria-label={`Explore ${title} contribution issues`}>
+              <a data-insights="navigate-githubcom/bittrees-technology/the-verse/issues" href="https://github.com/Bittrees-Technology/the-verse/issues" target="_blank" rel="noreferrer" aria-label={`Explore ${title} contribution issues`}>
                 Explore the work <span aria-hidden="true">↗</span>
               </a>
             </article>
@@ -308,13 +308,13 @@ export default function Home() {
             <h2>Start where the universe is incomplete.</h2>
           </div>
           <div className="cta-actions">
-            <a className="cta-primary" href="https://github.com/Bittrees-Technology/the-verse" target="_blank" rel="noreferrer">
+            <a data-insights="navigate-githubcom/bittrees-technology/the-verse" className="cta-primary" href="https://github.com/Bittrees-Technology/the-verse" target="_blank" rel="noreferrer">
               Enter the codebase <span aria-hidden="true">↗</span>
             </a>
-            <a href="https://github.com/Bittrees-Technology/the-verse/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer">
+            <a data-insights="navigate-githubcom/bittrees-technology/the-verse/blob/main/contributin" href="https://github.com/Bittrees-Technology/the-verse/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer">
               Read the contribution protocol <span aria-hidden="true">→</span>
             </a>
-            <a href="https://bounties.bittrees.org" target="_blank" rel="noreferrer">
+            <a data-insights="navigate-bountiesbittreesorg/" href="https://bounties.bittrees.org" target="_blank" rel="noreferrer">
               Find Bittrees bounties <span aria-hidden="true">→</span>
             </a>
           </div>
@@ -328,10 +328,10 @@ export default function Home() {
             One persistent industrial universe.<br />Built in the open by those who enter it.
           </p>
           <div className="footer-links">
-            <a href="https://github.com/Bittrees-Technology/the-verse" target="_blank" rel="noreferrer">GitHub ↗</a>
-            <a href="https://github.com/Bittrees-Technology/the-verse/blob/main/docs/roadmap/roadmap.md" target="_blank" rel="noreferrer">Roadmap ↗</a>
-            <a href="https://github.com/Bittrees-Technology/the-verse/blob/main/docs/product/vision.md" target="_blank" rel="noreferrer">Vision ↗</a>
-            <a href="https://bittrees.org" target="_blank" rel="noreferrer">Bittrees ↗</a>
+            <a data-insights="navigate-githubcom/bittrees-technology/the-verse" href="https://github.com/Bittrees-Technology/the-verse" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a data-insights="navigate-githubcom/bittrees-technology/the-verse/blob/main/docs/roadma" href="https://github.com/Bittrees-Technology/the-verse/blob/main/docs/roadmap/roadmap.md" target="_blank" rel="noreferrer">Roadmap ↗</a>
+            <a data-insights="navigate-githubcom/bittrees-technology/the-verse/blob/main/docs/produc" href="https://github.com/Bittrees-Technology/the-verse/blob/main/docs/product/vision.md" target="_blank" rel="noreferrer">Vision ↗</a>
+            <a data-insights="navigate-bittreesorg/" href="https://bittrees.org" target="_blank" rel="noreferrer">Bittrees ↗</a>
           </div>
         </div>
         <div className="footer-bottom">
