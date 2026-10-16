@@ -78,6 +78,7 @@ export default function Home() {
           <a data-insights="navigate-/systems" href="#systems">The universe</a>
           <a data-insights="navigate-/field-log" href="#field-log">Field log</a>
           <a data-insights="navigate-/contribute" href="#contribute">Contribute</a>
+          <a href="/administration">Profile &amp; roles</a>
         </nav>
         <a data-insights="navigate-/contribute" className="header-cta" href="#contribute">
           Build with us <span aria-hidden="true">↗</span>
