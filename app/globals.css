@@ -116,6 +116,7 @@ nav a:hover, .text-link:hover, .footer-links a:hover { color: var(--acid); }
   position: absolute;
   inset: 0;
   background: url('/og.png') right center / cover no-repeat;
+  background-image: image-set(url('/homepage-art.webp') type('image/webp'), url('/og.png') type('image/png'));
   filter: saturate(.62) contrast(1.06) brightness(.82);
   transform: scale(1.015);
 }
