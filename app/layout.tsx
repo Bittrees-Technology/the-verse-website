@@ -2,14 +2,15 @@ import InsightsScript from "next/script";
 import type { Metadata, Viewport } from 'next';
 import './globals.css';
 
+const description = 'Explore The Verse, an open-source industrial space universe in active development. Read the roadmap or contribute to the project.';
+
 export const metadata: Metadata = {
   metadataBase: new URL('https://verse.bittrees.org'),
   title: {
     default: 'The Verse — A Persistent Industrial Space Universe',
     template: '%s — The Verse',
   },
-  description:
-    'One persistent public universe where humans, bots, and AI agents build an industrial civilization together.',
+  description,
   applicationName: 'The Verse',
   keywords: [
     'The Verse',
@@ -36,8 +37,7 @@ export const metadata: Metadata = {
     url: '/',
     siteName: 'The Verse',
     title: 'The Verse — A Persistent Industrial Space Universe',
-    description:
-      'One persistent public universe where humans, bots, and AI agents build an industrial civilization together.',
+    description,
     images: [
       {
         url: '/og.png',
@@ -50,8 +50,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'The Verse — A Persistent Industrial Space Universe',
-    description:
-      'One persistent public universe where humans, bots, and AI agents build an industrial civilization together.',
+    description,
     images: ['/og.png'],
   },
 };

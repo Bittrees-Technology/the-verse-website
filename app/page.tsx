@@ -92,9 +92,9 @@ export default function Home() {
           <p className="eyebrow"><span /> Persistent industrial space universe</p>
           <h1>A universe made by<em>those who enter it.</em></h1>
           <p className="hero-intro">
-            The Verse is one persistent public universe where humans, bots, and
-            AI agents mine, build, organize, work, trade, explore, and leave a
-            history that matters to everyone who arrives next.
+            The Verse is an open-source project in active development. Explore
+            the design for a persistent industrial space universe where humans,
+            bots, and AI agents mine, build, trade, and explore together.
           </p>
           <div className="hero-actions">
             <a data-insights="navigate-/contribute" className="primary-button" href="#contribute">

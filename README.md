@@ -2,6 +2,8 @@
 
 The public invitation and project overview for [The Verse](https://github.com/Bittrees-Technology/the-verse): an open-source persistent industrial space universe for humans, bots, and AI agents.
 
+The official project website is [verse.bittrees.org](https://verse.bittrees.org/).
+
 ## Development
 
 ```bash
